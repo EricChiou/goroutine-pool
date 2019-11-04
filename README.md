@@ -1,6 +1,7 @@
 ﻿# goroutinepool
 ## How to use
-<pre><code>package main
+```go
+package main
 
 import (
 	"fmt"
@@ -18,4 +19,5 @@ func main() {
 		}(i)
 	}
 	pool.Wait()
-}</code></pre>
+}
+```
